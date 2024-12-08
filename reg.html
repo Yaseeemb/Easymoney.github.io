@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+     body{
+            background-image: url(img.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-clip: border-box;
+            height: 165vh;
+            color: white;
+            font-family: serif;
+            padding-left: 200px;
+            padding-right: 200px;
+        }
+        p{
+    font-family: serif;
+    color: white;
+   
+    font-weight: bolder;
+        }
+        .form{
+         background-color: transparent;
+          font-size: 15px;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            text-align: center;
+            
+        }
+        .form{
+           background-color: white;
+           text-align: center;
+           color:black;
+           border-radius: 10px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            text-align: center;
+        }
+        th, td {
+            padding: 5px;
+            text-align: center;
+        }
+        input{
+            background-color: transparent;
+            height: 30px;
+            width: 200px;
+            border-style: double;
+            border-radius: 10px;
+            color: darkblue;
+        }
+        #radio{
+            height: 15px;
+            width: 15px;
+        }
+        select{
+            height: 30px;
+            width: 200px;
+            border: none;
+            border-radius: 10px;
+            background-color: transparent;
+            border-style: double;
+           
+        }
+        button{
+            height: 30px;
+        width: 230px;
+        background-color: rgb(3, 3, 65);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        opacity: 0.9;
+        font-weight: bold;
+        }
+         
+        
+   </style>
+    <title>REGISTER</title>
+</head>
+<body>
+   
+  <marquee behavior="scroll" direction="left">
+    <h2>
+        <P><b> GROUP 3A WEB DESIGN <br>
+         ASSIGNMENT</b></P>
+     </h2>
+  </marquee>
+     <div class="form">
+        <br>
+        <form action="name">FIRST NAME:</form>
+        <input type="text" placeholder="FIRST NAME" required>
+        <br>
+        <form action="name">SURNAME:</form>
+        <input type="text" placeholder="SURNAME" required>
+        <br>
+        <form action="name">LAST NAME:</form>
+        <input type="text" placeholder="LAST NAME"><br>
+        <div class="radio">
+            MALE: <input type="radio" name="" id="radio">
+            FEMALE: <input type="radio" name="" id="radio"><br><br>
+            <form action="date">DATE OF BIRTH:</form>
+            <input type="date" required><br>
+            <br>
+            <form action="">STATE OF ORIGIN</form>
+            <select name="state" id="state">
+                <option value="abia">Abia</option>
+                <option value="adamawa">Adamawa</option>
+                <option value="akwa_ibom">Akwa Ibom</option>
+                <option value="anambra">Anambra</option>
+                <option value="bauchi">Bauchi</option>
+                <option value="bayelsa">Bayelsa</option>
+                <option value="benue">Benue</option>
+                <option value="borno">Borno</option>
+                <option value="cross_river">Cross River</option>
+                <option value="delta">Delta</option>
+                <option value="ebonyi">Ebonyi</option>
+                <option value="edo">Edo</option>
+                <option value="ekiti">Ekiti</option>
+                <option value="enugu">Enugu</option>
+                <option value="gombe">Gombe</option>
+                <option value="imo">Imo</option>
+                <option value="jigawa">Jigawa</option>
+                <option value="kaduna">Kaduna</option>
+                <option value="kano">Kano</option>
+                <option value="katsina">Katsina</option>
+                <option value="kebbi">Kebbi</option>
+                <option value="kogi">Kogi</option>
+                <option value="kwara">Kwara</option>
+                <option value="lagos">Lagos</option>
+                <option value="nasarawa">Nasarawa</option>
+                <option value="niger">Niger</option>
+                <option value="ogun">Ogun</option>
+                <option value="ondo">Ondo</option>
+                <option value="osun">Osun</option>
+                <option value="oyo">Oyo</option>
+                <option value="plateau">Plateau</option>
+                <option value="rivers">Rivers</option>
+                <option value="sokoto">Sokoto</option>
+                <option value="taraba">Taraba</option>
+                <option value="yobe">Yobe</option>
+                <option value="zamfara">Zamfara</option>
+              </select>
+              <br><br>
+              <table>
+                <thead>
+                    <tr>
+                        <th>Subject Code</th>
+                        <th>Subject Name</th>
+                        <th>Select</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CMP331</td>
+                        <td>Computer Programming 1</td>
+                        <td><input type="checkbox" name="cmp331" value="CMP331" id="radio"></td>
+                    </tr>
+                    <tr>
+                        <td>CMP351</td>
+                        <td>Computer Networks</td>
+                        <td><input type="checkbox" name="cmp351" value="CMP351" id="radio"></td>
+                    </tr>
+                    <tr>
+                        <td>CMP311</td>
+                        <td>Database Management Systems</td>
+                        <td><input type="checkbox" name="cmp311" value="CMP311" id="radio"></td>
+                    </tr>
+                    <tr>
+                        <td>CMP371</td>
+                        <td>Web Development</td>
+                        <td><input type="checkbox" name="cmp371" value="CMP371" id="radio"></td>
+                    </tr>
+                </tbody>
+            </table>
+       <br>
+            <button>REGISTER</button><br>
+        </div>
+     </div>
+     <br><br>
+ 
+</body>
+</html>
